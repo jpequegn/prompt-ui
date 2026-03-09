@@ -3,12 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
-  "bin": {
-    "pui": "./src/cli.ts"
-  },
   "scripts": {
-    "generate": "bun run src/cli.ts generate",
-    "parse-spec": "bun run src/parseSpec.ts",
     "test": "bun test"
   },
   "devDependencies": {
@@ -18,7 +13,6 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.78.0",
-    "openai": "^6.27.0"
+    "@anthropic-ai/sdk": "^0.78.0"
   }
 }
