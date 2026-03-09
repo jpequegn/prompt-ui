@@ -6,6 +6,9 @@ out
 dist
 *.tgz
 
+# renderer temp workspace (issue #3)
+temp/
+
 # code coverage
 coverage
 *.lcov
