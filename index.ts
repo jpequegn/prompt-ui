@@ -4,6 +4,8 @@ export { generateComponent, extractCodeBlock, detectSyntaxIssues } from "./src/g
 export { Renderer, renderer } from "./src/renderer.js";
 export { evaluateComponent, buildFeedbackMessage } from "./src/evaluateComponent.js";
 export { GenerationLoop } from "./src/generationLoop.js";
+export { Evaluator, evaluator } from "./src/evaluator.js";
 export type { ComponentSpec } from "./src/types.js";
 export type { EvaluationResult } from "./src/evaluateComponent.js";
 export type { Attempt, GenerationResult } from "./src/generationLoop.js";
+export type { EvalResult, ElementCheck } from "./src/evaluator.js";
