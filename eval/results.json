@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "name": "LoginForm",
+    "prompt": "a login form with email input, password input, and a submit button",
+    "timeTakenMs": 141,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "email",
+      "password",
+      "submit"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/LoginForm.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhvyVtfnaynQESiKG4\"}"
+  },
+  {
+    "id": 2,
+    "name": "SearchBar",
+    "prompt": "a search bar with a text input and a results dropdown that shows matching items below the input",
+    "timeTakenMs": 87,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "input",
+      "dropdown",
+      "search"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/SearchBar.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhwNKCgqMY2TX9BEjx\"}"
+  },
+  {
+    "id": 3,
+    "name": "PricingCard",
+    "prompt": "a pricing card with 3 tiers: Basic, Pro, and Enterprise, where the middle Pro tier is visually highlighted",
+    "timeTakenMs": 82,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "basic",
+      "pro",
+      "enterprise"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/PricingCard.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhwjdmvyekxidK9Xo5\"}"
+  },
+  {
+    "id": 4,
+    "name": "ProgressBar",
+    "prompt": "a progress bar component that shows a filled bar and displays a percentage label like 75%",
+    "timeTakenMs": 83,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "progress",
+      "percent"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/ProgressBar.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhx5yFzm3wp5E1N9wP\"}"
+  },
+  {
+    "id": 5,
+    "name": "NavigationBar",
+    "prompt": "a navigation bar with a logo on the left and 4 navigation links: Home, About, Services, and Contact",
+    "timeTakenMs": 104,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "logo",
+      "home",
+      "about",
+      "contact"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/NavigationBar.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhxUY69kdov5R3qtBb\"}"
+  },
+  {
+    "id": 6,
+    "name": "ModalDialog",
+    "prompt": "a modal dialog with a title, a body text area, and a close button in the top-right corner with an overlay backdrop",
+    "timeTakenMs": 83,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "title",
+      "close",
+      "modal"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/ModalDialog.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhxtLmpPgdq5xuQKCS\"}"
+  },
+  {
+    "id": 7,
+    "name": "DataTable",
+    "prompt": "a data table with 3 columns (Name, Email, Role) and 5 rows of sample data with alternating row colors",
+    "timeTakenMs": 115,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "name",
+      "email",
+      "role"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/DataTable.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhyEvn4r16qdtibgAr\"}"
+  },
+  {
+    "id": 8,
+    "name": "ToggleSwitch",
+    "prompt": "a toggle switch component with a label that shows the current state as On or Off",
+    "timeTakenMs": 91,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "toggle",
+      "label"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/ToggleSwitch.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhyjC9WoVv8s8ZYLtM\"}"
+  },
+  {
+    "id": 9,
+    "name": "FileUploadDropzone",
+    "prompt": "a file upload dropzone that accepts drag and drop files and shows a browse button to select files",
+    "timeTakenMs": 88,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "upload",
+      "drop",
+      "file"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/FileUploadDropzone.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhz8FcL8TsztinDk5M\"}"
+  },
+  {
+    "id": 10,
+    "name": "ToastNotification",
+    "prompt": "a success toast notification with a green checkmark icon, a success message text, and a dismiss button",
+    "timeTakenMs": 102,
+    "attemptsNeeded": 0,
+    "finalScore": 0,
+    "passed": false,
+    "present": [],
+    "missing": [
+      "success",
+      "toast",
+      "dismiss"
+    ],
+    "savedTo": "/Users/julienpequegnot/Code/prompt-ui/eval/components/ToastNotification.tsx",
+    "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CYsQhzW5YxtstK2F4vfTT\"}"
+  }
+]

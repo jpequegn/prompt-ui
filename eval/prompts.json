@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "LoginForm",
+    "prompt": "a login form with email input, password input, and a submit button",
+    "must_have": ["email", "password", "submit"]
+  },
+  {
+    "id": 2,
+    "name": "SearchBar",
+    "prompt": "a search bar with a text input and a results dropdown that shows matching items below the input",
+    "must_have": ["input", "dropdown", "search"]
+  },
+  {
+    "id": 3,
+    "name": "PricingCard",
+    "prompt": "a pricing card with 3 tiers: Basic, Pro, and Enterprise, where the middle Pro tier is visually highlighted",
+    "must_have": ["basic", "pro", "enterprise"]
+  },
+  {
+    "id": 4,
+    "name": "ProgressBar",
+    "prompt": "a progress bar component that shows a filled bar and displays a percentage label like 75%",
+    "must_have": ["progress", "percent"]
+  },
+  {
+    "id": 5,
+    "name": "NavigationBar",
+    "prompt": "a navigation bar with a logo on the left and 4 navigation links: Home, About, Services, and Contact",
+    "must_have": ["logo", "home", "about", "contact"]
+  },
+  {
+    "id": 6,
+    "name": "ModalDialog",
+    "prompt": "a modal dialog with a title, a body text area, and a close button in the top-right corner with an overlay backdrop",
+    "must_have": ["title", "close", "modal"]
+  },
+  {
+    "id": 7,
+    "name": "DataTable",
+    "prompt": "a data table with 3 columns (Name, Email, Role) and 5 rows of sample data with alternating row colors",
+    "must_have": ["name", "email", "role"]
+  },
+  {
+    "id": 8,
+    "name": "ToggleSwitch",
+    "prompt": "a toggle switch component with a label that shows the current state as On or Off",
+    "must_have": ["toggle", "label"]
+  },
+  {
+    "id": 9,
+    "name": "FileUploadDropzone",
+    "prompt": "a file upload dropzone that accepts drag and drop files and shows a browse button to select files",
+    "must_have": ["upload", "drop", "file"]
+  },
+  {
+    "id": 10,
+    "name": "ToastNotification",
+    "prompt": "a success toast notification with a green checkmark icon, a success message text, and a dismiss button",
+    "must_have": ["success", "toast", "dismiss"]
+  }
+]
