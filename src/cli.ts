@@ -5,17 +5,18 @@
  * Usage:
  *   bun run src/cli.ts generate "<prompt>" [--verbose]
  *
- * Currently implemented:
- *   - Spec parsing (issue #1)
+ * Steps executed:
+ *   1. Parse natural-language prompt → ComponentSpec  (issue #1)
+ *   2. Generate React component string from spec      (issue #2)
  *
- * Future steps (issues #2–#7):
- *   - Component generation
+ * Future steps (issues #3–#7):
  *   - Vite rendering
  *   - Self-critique loop
  *   - Playwright eval
  */
 
 import { parseSpec } from "./parseSpec.js";
+import { generateComponent } from "./generateComponent.js";
 
 const args = process.argv.slice(2);
 const verbose = args.includes("--verbose");
@@ -42,3 +43,11 @@ if (verbose) {
   console.log("Parsed spec:");
   console.log(JSON.stringify(spec, null, 2));
 }
+
+console.log("\nGenerating React component…\n");
+
+const component = await generateComponent(spec, verbose);
+
+console.log("── Generated component ───────────────────────────────");
+console.log(component);
+console.log("──────────────────────────────────────────────────────");
